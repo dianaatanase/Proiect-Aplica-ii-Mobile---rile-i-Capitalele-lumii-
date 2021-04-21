@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4d9f2"
+    tools:context=".home.HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation_view" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#B3CD8BD1"
+        android:visibility="visible"
+        app:itemIconTint="@drawable/custom_nav_bar"
+        app:itemTextColor="@drawable/custom_nav_bar"
+        app:menu="@menu/bm"
+        tools:visibility="@tools:sample/full_names" />
+
+
+    <TextView
+        android:id="@+id/no_result_search_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_result_activity_home_tv"
+        android:textSize="36sp"
+        android:visibility="gone" />
+
+
+
+
+
+</RelativeLayout>

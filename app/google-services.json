@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "644045865450",
+    "firebase_url": "https://proiectdam-56ddf-default-rtdb.firebaseio.com",
+    "project_id": "proiectdam-56ddf",
+    "storage_bucket": "proiectdam-56ddf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644045865450:android:07e2f759ec543b085b3293",
+        "android_client_info": {
+          "package_name": "com.example.proiectdam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644045865450-3gi49jrd3cv22474k3o7lpc1asvufsd1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proiectdam",
+            "certificate_hash": "6aa54bf6b6a55121566d4673abddbf92c6bf2f11"
+          }
+        },
+        {
+          "client_id": "644045865450-5vpr7s160ejsvu6kpd6n6e88la56g9ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxbNO2pjhWahHwSWrAeGAbyAyBE73AgqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644045865450-5vpr7s160ejsvu6kpd6n6e88la56g9ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

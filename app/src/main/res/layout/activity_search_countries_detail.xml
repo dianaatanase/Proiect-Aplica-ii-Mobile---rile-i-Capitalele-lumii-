@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5d6ff">
+
+    <ImageView
+        android:id="@+id/search_countries_detail_activity_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/android"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/linear_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_countries_detail_activity_image"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_limba"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:text="@string/search_country_detail_tv_language"
+            android:textStyle="bold"
+            android:textColor="#570b83"/>
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_limba_empty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:scrollbars="vertical"
+            android:textColor="#570b83"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear_2"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_moneda"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:text="@string/earch_countries_detail_activity_currency"
+            android:textStyle="bold"
+            android:textColor="#570b83"/>
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_moneda_empty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:scrollbars="vertical"
+            android:textColor="#570b83"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear_3"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_turisti"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:text="@string/earch_countries_detail_activity_tourists"
+            android:textStyle="bold"
+            android:textColor="#570b83"/>
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_turisti_empty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:scrollbars="vertical"
+            android:textColor="#570b83"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear_4"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_nume_capitala"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:text="@string/earch_countries_detail_activity_image_cap_name"
+            android:textStyle="bold"
+            android:textColor="#570b83"/>
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_nume_capitala_empty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:scrollbars="vertical"
+            android:textColor="#570b83"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear_5">
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_densitate_cap"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:text="@string/earch_countries_detail_activity_density"
+            android:textStyle="bold"
+            android:textColor="#570b83"/>
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_densitate_cap_empty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:scrollbars="vertical"
+            android:textColor="#570b83"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear_6">
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_obiective_turistice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:text="@string/earch_countries_detail_activity_atractions"
+            android:textStyle="bold"
+            android:textColor="#570b83"/>
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_obiective_turistice_empty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:scrollbars="vertical"
+            android:maxLines="3"
+            android:textColor="#570b83"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear_7">
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_obiective_turistice1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:textColor="#570b83"/>
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_obiective_turistice_empty1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:scrollbars="vertical"
+            android:maxLines="3"
+            android:textColor="#570b83"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear_8">
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_obiective_turistice2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:textColor="#570b83"/>
+
+        <TextView
+            android:id="@+id/search_countries_detail_activity_tv_obiective_turistice_empty2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:scrollbars="vertical"
+            android:maxLines="3"
+            android:textColor="#570b83"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
