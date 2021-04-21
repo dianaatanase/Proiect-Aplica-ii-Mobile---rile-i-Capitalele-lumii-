@@ -1,2 +1,2 @@
-# Proiect-Aplica-ii-Mobile---rile-i-Capitalele-lumii-
+# Proiect-AplicatiiMobile - Tarile si Capitalele lumii
 Java Project in Android Studio
